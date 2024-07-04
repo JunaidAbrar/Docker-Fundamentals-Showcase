@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Hello Docker! This is me, Juniad Abrar, tinkering with Docker</h1>
+<button onclick="showImage()">Show Image</button>
+<img id="myImage" src="https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png" style="display:none;">
+<script>
+function showImage() {
+  var x = document.getElementById("myImage");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>
